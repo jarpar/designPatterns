@@ -13,5 +13,6 @@ public class Program {
         silnik = fabrykaCzesciSamochodowych.utworzSilnik();
          swiatla = fabrykaCzesciSamochodowych.utwórzSwiatla();
          opony = fabrykaCzesciSamochodowych.utworzOpony();
+        System.out.println();
     }
 }
