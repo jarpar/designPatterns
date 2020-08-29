@@ -1,6 +1,9 @@
 package factoryMethod.pizzeria;
 
-public interface Pizzeria {
+public abstract class Pizzeria {
 
-    void zamowPizze(String name);
+    void zamowPizze(String name) {
+
+    }
+
 }

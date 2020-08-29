@@ -7,5 +7,6 @@ public class PizzaApp {
 
         pizzeria = new AmerykanskaPizzeria();
         pizzeria.zamowPizze("serowa");
+
     }
 }
