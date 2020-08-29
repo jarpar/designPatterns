@@ -1,4 +1,4 @@
-package strategy.exercise;
+package strategy.calcutator;
 
 public class MultiplyStrategy implements Strategy {
     public int calculate(int a, int b) {

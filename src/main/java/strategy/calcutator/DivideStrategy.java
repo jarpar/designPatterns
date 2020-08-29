@@ -1,4 +1,4 @@
-package strategy.exercise;
+package strategy.calcutator;
 
 public class DivideStrategy implements Strategy {
     public int calculate(int a, int b) {
