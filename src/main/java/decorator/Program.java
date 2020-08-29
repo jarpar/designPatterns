@@ -7,5 +7,8 @@ public class Program {
         napoj = new Czekolada(napoj);
 
         System.out.println(napoj.pobierzOpis());
+
+        Napoj napoj2 = new Czekolada(new Mleko(new Mleko(new Czekolada(new Bezkofeinowa()))));
+        System.out.println(napoj2.pobierzOpis());
     }
 }
