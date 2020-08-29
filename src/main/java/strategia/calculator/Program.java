@@ -1,4 +1,4 @@
-package strategy.calcutator;
+package strategia.calculator;
 
 public class Program {
 
@@ -48,4 +48,3 @@ public class Program {
         return result;
     }
 }
-

@@ -1,7 +1,6 @@
 package observer;
 
 public interface Obserwator {
-    void aktualizacja(int counter);
 
-    void aktualizacja();
+    void aktualizacja(int counter);
 }

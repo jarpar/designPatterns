@@ -5,7 +5,9 @@ import java.util.List;
 
 public class PodmiotImpl implements Podmiot {
 
-    private List<Obserwator> obserwatorList = new ArrayList<Obserwator>();
+    private List<Obserwator> obserwatorList = new ArrayList<>();
+
+    int counter = 1;
 
     @Override
     public void zarejestrujObserwatora(Obserwator obserwator) {
@@ -18,16 +20,15 @@ public class PodmiotImpl implements Podmiot {
     }
 
     @Override
-    public void powiadomObserwatora(Obserwator obserwator) {
-        for (Obserwator obserwator1 : obserwatorList) {
-            obserwator.aktualizacja();
+    public void powiadomObserwatorow() {
+        for (Obserwator obserwator: obserwatorList) {
+            obserwator.aktualizacja(counter);
         }
     }
 
-    public int counter = 0;
-
-    public void counter() {
+    public void increaseCounter() {
         counter++;
-        powiadomObserwatora(obserwatorList.get(0));
+
+        powiadomObserwatorow();
     }
 }

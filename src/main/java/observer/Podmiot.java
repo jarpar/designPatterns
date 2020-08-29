@@ -1,10 +1,10 @@
 package observer;
 
 public interface Podmiot {
-    public void zarejestrujObserwatora(Obserwator obserwator);
 
-    public void usunObserwatora(Obserwator obserwator);
+    void zarejestrujObserwatora(Obserwator obserwator);
+    void usunObserwatora(Obserwator obserwator);
+    void powiadomObserwatorow();
 
-    public void powiadomObserwatora(Obserwator obserwator);
-
+    void increaseCounter();
 }

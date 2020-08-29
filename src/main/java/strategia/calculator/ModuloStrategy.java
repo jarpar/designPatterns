@@ -1,4 +1,4 @@
-package strategy.calcutator;
+package strategia.calculator;
 
 public class ModuloStrategy implements Strategy {
     @Override
